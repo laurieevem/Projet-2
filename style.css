@@ -1,0 +1,770 @@
+  body {
+            background-color: rgb(255, 255, 255);
+            margin: 100px;
+            padding: 20px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+            justify-content: center;  }
+
+h1 {
+    text-align: right;
+    font-size: 150px;
+    color: rgb(0, 0, 0);
+    font-family: 'dottonoji', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+.fade-title {
+text-align: right;
+  opacity: 1;
+  transition: opacity 0.4s ease; /* Transition fluide */
+}
+/* Effet au survol */
+.fade-title:hover {
+  opacity: 0;
+  cursor: default;
+}
+
+h2 {
+    text-align: left;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'dottonoji', sans-serif;
+font-weight: 400;
+font-style: normal;
+}   
+.mon-titre-split {
+  display: flex;
+  flex-direction: column; /* Aligne verticalement */
+  width: 100%;
+}
+
+.phrase-1 {
+  text-align: left;
+}
+
+.phrase-2 {
+  text-align: right; /* Aligne seulement la 2ème phrase à droite */
+  color: rgb(0, 0, 0);       /* Optionnel : pour les différencier */
+}
+
+h3 {
+   font-family: "amandine", sans-serif;
+font-weight: 400;
+font-style: italic;
+    font-size: 30px;
+}
+
+
+.roche {
+    margin-top: 100px;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.rochemot {
+    text-align: right;
+    color: rgb(241, 226, 107);
+}
+/* Style de base */
+.rochemot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.rochemot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(241, 226, 107);
+  opacity: 1
+}
+
+.bouton {
+ margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.boutonmot {
+    text-align: right;
+    color: rgb(201, 185, 176);
+}
+/* Style de base */
+.boutonmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.boutonmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(201, 185, 176);
+  opacity: 1
+}
+
+.pin {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.pinmot {
+    text-align: left;
+    color: rgb(211, 157, 238);
+}
+/* Style de base */
+.pinmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.pinmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.cell{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.cellmot {
+    text-align: right;
+    color: rgb(201, 185, 176);
+}
+/* Style de base */
+.cellmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.cellmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(201, 185, 176);
+  opacity: 1
+}
+
+.dé{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.démot {
+    text-align: left;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.démot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.démot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.lunettes{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.lunettesmot {
+    text-align: left;
+    color: rgb(35, 53, 25);
+}       
+/* Style de base */
+.lunettesmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.lunettesmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(35, 53, 25);
+  opacity: 1
+}
+
+.ipodnano{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.ipodnanomot {
+    text-align: right;
+    color: rgb(241, 226, 107);
+}   
+/* Style de base */
+.ipodnanomot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.ipodnanomot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(241, 226, 107);
+  opacity: 1
+}
+
+.bracelet{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.braceletmot {
+    text-align: left;
+    color: rgb(35, 53, 25);
+}   
+/* Style de base */
+.braceletmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.braceletmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(35, 53, 25);
+  opacity: 1
+}
+
+.montre {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.montremot {
+    text-align: right;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.montremot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.montremot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.recu {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.recumot {
+    text-align: left;
+    color: rgb(201, 185, 176);
+}   
+/* Style de base */
+.recumot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.recumot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(201, 185, 176);
+  opacity: 1
+}
+
+.pince {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.pincemot {
+    text-align: right;
+    color: rgb(201, 185, 176);
+}   
+/* Style de base */
+.pincemot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.pincemot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(201, 185, 176);
+  opacity: 1
+}
+
+.chocolat {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.chocolatmot {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 50px;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.chocolatmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.chocolatmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.parfum {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.parfummot {
+    text-align: left;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.parfummot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.parfummot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.miniputt{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.miniputtmot {
+    text-align: right;
+    color: rgb(114, 142, 220);
+}   
+/* Style de base */
+.miniputtmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.miniputtmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 142, 220);
+  opacity: 1
+}
+
+.boitebijou{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.boitebijoumot {
+    text-align: left;
+    color: rgb(114, 142, 220);
+}   
+/* Style de base */
+.boitebijoumot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.boitebijoumot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 142, 220);
+  opacity: 1
+}
+
+.yoyo{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.yoyomot {
+    text-align: right;
+    color: rgb(35, 53, 25);
+}   
+/* Style de base */
+.yoyomot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.yoyomot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(35, 53, 25);
+  opacity: 1
+}
+
+.jeuspring{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.jeuspringmot {
+    text-align: left;
+    color: rgb(114, 142, 220);
+}   
+/* Style de base */
+.jeuspringmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.jeuspringmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 142, 220);
+  opacity: 1
+}
+
+.euro {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.euromot {
+    text-align: right;
+    color: rgb(114, 142, 220);
+}   
+/* Style de base */
+.euromot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.euromot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 142, 220);
+  opacity: 1
+}
+
+.sangle {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.sanglemot {
+    text-align: left;
+    color: rgb(241, 226, 107);
+}   
+/* Style de base */
+.sanglemot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.sanglemot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(241, 226, 107);
+  opacity: 1
+}
+
+.cadenas{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.cadenasmot {
+    text-align: right;
+    color: rgb(201, 185, 176);
+}   
+/* Style de base */
+.cadenasmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.cadenasmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(201, 185, 176);
+  opacity: 1
+}
+
+.cartefete {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.cartefetemot {
+    text-align: left;
+    color: rgb(241, 226, 107);
+} 
+/* Style de base */
+.cartefetemot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.cartefetemot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(241, 226, 107);
+  opacity: 1
+}
+
+.chien {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.chienmot {
+    text-align: right;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.chienmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.chienmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.corde{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.cordemot {
+    text-align: left;
+    color: rgb(241, 226, 107);
+}   
+/* Style de base */
+.cordemot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.cordemot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(241, 226, 107);
+  opacity: 1
+}
+
+.clé {
+    margin-top: 100px;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.clémot {
+    text-align: right;
+    color: rgb(114, 142, 220);
+    padding-left: 20px;
+    padding-top: 50px;
+}
+/* Style de base */
+.clémot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.clémot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 142, 220);
+  opacity: 1
+}
+
+.map {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.mapmot {
+    text-align: left;
+    color: rgb(114, 142, 220);
+}   
+/* Style de base */
+.mapmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.mapmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 142, 220);
+  opacity: 1
+}
+
+.passeport {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.passeportmot {
+    text-align: left;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.passeportmot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.passeportmot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+.sourire{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.souriremot {
+    text-align: left;
+    color: rgb(241, 226, 107);
+}   
+/* Style de base */
+.souriremot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.souriremot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(241, 226, 107);
+  opacity: 1
+}
+
+.boucle {
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.bouclemot {
+    text-align: right;
+    color: rgb(211, 157, 238);
+}   
+/* Style de base */
+.bouclemot {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  opacity: 0.6; /* L'image est semi-transparente de base */
+  transition: opacity 0.3s ease
+}
+/* Style au survol */
+.bouclemot:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(211, 157, 238);
+  opacity: 1
+}
+
+
+img {
+    width: 1000px;
+}
+
